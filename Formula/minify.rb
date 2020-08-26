@@ -1,8 +1,8 @@
 class Minify < Formula
   desc "Minifier CLI for HTML, CSS, JS, JSON, SVG and XML"
   homepage "https://github.com/tdewolff/minify"
-  url "https://github.com/tdewolff/minify/archive/v2.7.6.tar.gz"
-  sha256 "ecf1a48c23eb434c2160d289f6d31fe34056a667e4d92cd689bf145b5a12da11"
+  url "https://github.com/tdewolff/minify/archive/v2.9.0.tar.gz"
+  sha256 "70bb5df7dcad7499183af7c232bc0c500d68d0fac9758adebd5992bdd8c299d9"
 
   depends_on "go" => :build
 
@@ -15,7 +15,7 @@ class Minify < Formula
       system "go", "build", "-o", bin/"minify"
 
       # Build bash completion
-      bash_completion.install "minify_bash_tab_completion"
+      bash_completion.install "bash_completion"
     end
   end
 
