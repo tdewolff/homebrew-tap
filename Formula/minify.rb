@@ -1,8 +1,8 @@
 class Minify < Formula
   desc "Minifier CLI for HTML, CSS, JS, JSON, SVG and XML"
   homepage "https://github.com/tdewolff/minify"
-  url "https://github.com/tdewolff/minify/archive/v2.23.1.tar.gz"
-  sha256 "50fc0c7b0e3eb57164e0e5c73aa4fe8e3d597c43433a44a0c35c0a8f49178784"
+  url "https://github.com/tdewolff/minify/archive/v2.23.2.tar.gz"
+  sha256 "0656504039ddaff2bb554519ce8a450163a1ceb888f1ff788aa53c31cc7f7ea7"
 
   depends_on "go" => :build
 
